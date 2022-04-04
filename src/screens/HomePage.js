@@ -96,8 +96,7 @@ const HomePage = ({ navigation }) => {
   const horizontalRender = ({ item }) => {
     return (
       <View style={styles.horizontalRender}>
-        <TouchableOpacity style={styles.flatListContainer}
-         onPress={() => { airtimePurchase(item) }}>
+        <TouchableOpacity style={styles.flatListContainer}>
           {item.icon}
         </TouchableOpacity>
       </View>
